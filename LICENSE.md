@@ -1,15 +1,18 @@
---2022-10-01 21:39:28--  https://www.gnu.org/licenses/old-licenses/gpl-2.0.md
-Resolving www.gnu.org (www.gnu.org)... 209.51.188.116
-Connecting to www.gnu.org (www.gnu.org)|209.51.188.116|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 17895 (17K) [text/markdown]
-Saving to: ‘gpl-2.0.md’
+### GNU GENERAL PUBLIC LICENSE
 
-     0K .......... .......                                    100% 58.0K=0.3s
+Version 2, June 1991
 
-2022-10-01 21:39:30 (58.0 KB/s) - ‘gpl-2.0.md’ saved [17895/17895]
+    Copyright (C) 1989, 1991 Free Software Foundation, Inc.  
+    51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 
-nded to guarantee your freedom to share and change free
+    Everyone is permitted to copy and distribute verbatim copies
+    of this license document, but changing it is not allowed.
+
+### Preamble
+
+The licenses for most software are designed to take away your freedom
+to share and change it. By contrast, the GNU General Public License is
+intended to guarantee your freedom to share and change free
 software--to make sure the software is free for all its users. This
 General Public License applies to most of the Free Software
 Foundation's software and to any other program whose authors commit to
