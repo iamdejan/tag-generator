@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+
+jobs:
+  validate-script:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v3
+      - name: Install Mypy and Pycodestyle
+        run: 'pip install mypy pycodestyle'
+      - name: Install dependencies
+        run: 'pip install -r requirements.txt'
+      - name: Run Mypy and Pycodestyle
+        run: 'mypy main.py && pycodestyle main.py'

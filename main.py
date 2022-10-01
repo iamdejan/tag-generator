@@ -18,8 +18,7 @@ create.add_argument("--patch", type=int, help=f"Patch version. {VERSION_VALUE_ME
 create.add_argument("--prerelease", type=str, help=f'Pre-release version. Accepted format: "alphabet.number", e.g. "alpha.1"')
 create.add_argument("--build", type=str, help=f"Build version. If you bump up the tag, build version will be reset.")
 
-bump.add_argument("--previous-tag", type=str, help="Previously generated tag that you want to bump. Recommended if the previous tag is 
-generated using create sub-command.")
+bump.add_argument("--previous-tag", type=str, help="Previously generated tag that you want to bump. Recommended if the previous tag is generated using create sub-command.")
 bump.add_argument("--part", type=str, help=f"Determine which part you want to bump. Accepted values: {VALID_PARTS}")
 
 
@@ -88,4 +87,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
